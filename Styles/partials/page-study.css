@@ -134,8 +134,18 @@
     align-items: center;
 }
 
-.teacher-item img{ /*Fazer a imagem virar redonda */
+.teacher-item header img{ /*Fazer a imagem virar redonda */
     width: 8rem;
     height: 8rem;
-    border-radius: 90%;
+    border-radius: 50%;
+}
+
+.teacher-item header div{
+    margin-left: 2.4rem;
+
+}
+
+.teacher-item header div strong {
+    font: 700 2.4rem Archivo;
+    display: block; /*Display block ocupa a lonha toda, mandando o restante para linha de baixo*/
 }
